@@ -7,7 +7,7 @@ This repository contains three versions of a Python-based number guessing game w
 
 🔹 Version 1: Guessing Game.py
 
-This is original, basic version of the game featuring:
+This is the original, basic version of the game featuring:
 
 A simple GUI
 
@@ -78,11 +78,41 @@ python "Guessing Game Version2.py"
 
 python "Guessing Game Version 3.py"
 
+> 📦 Technologies Used :
+
+Python 3.x
+
+Tkinter GUI Toolkit
+
+JSON for persistent score storage
+
+> 🧠 How to Play
+
+1. Choose a difficulty level.
+
+2. Toggle between Light or Dark theme (optional).
+
+3. Type your number guess in the input field.
+
+4. Click Guess or press Enter.
+
+5. You have a limited number of tries based on the difficulty.
+
+6. Use the Hint button to get help (even/odd).
+
+7. Click Scores to view the best times across sessions.
+
+8. Try to beat your best score! 💪
+
 > ✅ Requirements
 
 Python 3.x
 
 Tkinter (comes built-in with Python)
+
+> 📁 File Info
+
+*highscores.json*: Automatically generated to store best times by difficulty.
 
 > 🧱 Future Enhancements (Planned)
 

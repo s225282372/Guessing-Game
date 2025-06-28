@@ -1,127 +1,98 @@
-> 🎮 Guessing Game GUI (Tkinter)
+# 🎮 Guessing Game GUI (Tkinter)
 
 This repository contains three versions of a Python-based number guessing game with increasing levels of features and improvements using Tkinter for the graphical interface.
 
+---
 
-> 📁 Project Versions
+## 📁 Project Versions
 
-🔹 Version 1: Guessing Game.py
+### 🔹 Version 1: `Guessing Game.py`
+This is the basic version featuring:
+- Simple GUI
+- Number guessing logic
+- Fixed difficulty (0–10)
+- No score tracking or theming
 
-This is the original, basic version of the game featuring:
+### 🔸 Version 2: `Guessing Game Version2.py`
+This is an upgraded version with improved UX:
+- 🎯 Difficulty Modes: Easy (0–10), Medium (0–25), Hard (0–50)
+- 🔒 Locked Difficulty: Selection is disabled during a game
+- 🌗 Light/Dark Theme: Switchable UI themes
+- ⌨️ Keyboard Shortcuts: Press Enter to submit your guess
+- 🏆 High Score Tracking: Best time saved
+- 🎨 Modern UI using `ttk` widgets
 
-A simple GUI
+### 🔺 Version 3: `Guessing Game Version 3.py`
+This is the most advanced version, packed with features like:
+- 🎯 Difficulty Levels: Easy (0–10), Medium (0–25), Hard (0–50), Expert (0–100)
+- 📈 Stats Tracker: Games played, won, and win rate
+- 🧠 Hints: Reveals if the number is even or odd
+- 🌙 Theme Mode: Dark and Light options
+- 🏆 High Scores: Tracks best times by difficulty
+- 📋 Scoreboard: Scrollable score viewing
+- ⌨️ Keyboard Support: Press Enter to guess
+- 🧼 Responsive UI and layout
 
-Number guessing logic
+---
 
-Fixed difficulty (0–10)
+## 🖼️ UI Screenshots
 
-No score tracking or theming
+### Version 1
+![Version 1 UI](https://github.com/user-attachments/assets/088d0334-7bce-42f3-93e1-857bb6a7d47d)
 
-🔸 Version 2: Guessing Game Version 2.py
+### Version 2
+![Version 2 UI](https://github.com/user-attachments/assets/902aeb5b-1475-4c95-bb56-41309054b6b1)
 
-This is an upgraded version introducing usability and customization features:
+### Version 3
+![Version 3 UI](https://github.com/user-attachments/assets/e2d29ead-8cff-422c-8032-548dc0180320)
 
-🎯 Difficulty Modes: Easy (0–10), Medium (0–25), Hard (0–50)
+---
 
-🔒 Locked Difficulty: Selection becomes disabled during a game
+## 🚀 Run Any Version
 
-🌗 Light/Dark Theme: Switch between dark and light UI modes
-
-⌨️ Keyboard Shortcuts: Press Enter to submit your guess
-
-🏆 High Score Tracking: Tracks and saves your best time
-
-🎨 Modern UI: Better layout using ttk
-
-🔺 Version 3: Guessing Game Version 3.py
-
-This is the most advanced and feature-rich version:
-
-🎯 Multiple Difficulty Levels: Easy (0–10), Medium (0–25), Hard (0–50), Expert (0–100)
-
-📈 Stats Tracker: Tracks games played, games won, and win rate
-
-🧠 Hints: Tells whether the number is even or odd
-
-🌙 Dark/Light Mode: User-selectable visual theme
-
-🏆 High Scores: Best times saved by difficulty level
-
-📋 Scoreboard Viewer: View high scores in a scrollable window
-
-🧩 Keyboard Shortcuts: Press Enter to guess
-
-🧼 Responsive Layout: Improved layout and component styling
-
-
-> 🖼️ Screenshots of the UI:
-
-> Version 1
-![image](https://github.com/user-attachments/assets/088d0334-7bce-42f3-93e1-857bb6a7d47d)
-
-
-> Version 2
-![image](https://github.com/user-attachments/assets/902aeb5b-1475-4c95-bb56-41309054b6b1)
-
-
-> Version 3
-![image](https://github.com/user-attachments/assets/e2d29ead-8cff-422c-8032-548dc0180320)
-
-
-> 🚀 Run Any Version 
-
-To run a specific version, use the following:
-
+```bash
 python "Guessing Game.py"
-
-python "Guessing Game Version2.py"
-
+python "Guessing Game Version 2.py"
 python "Guessing Game Version 3.py"
+```
 
-> 📦 Technologies Used :
+---
 
-Python 3.x
+## 📦 Technologies Used
+- Python 3.x
+- Tkinter GUI Toolkit
+- JSON (for storing scores persistently)
 
-Tkinter GUI Toolkit
+---
 
-JSON for persistent score storage
-
-> 🧠 How to Play
-
+## 🧠 How to Play
 1. Choose a difficulty level.
+2. (Optional) Toggle Light or Dark theme.
+3. Enter your number guess in the input field.
+4. Click **Guess** or press **Enter**.
+5. Use the Hint button to check if the number is even or odd.
+6. View your score or best times via the **Scores** button.
+7. Try to win in fewer attempts and beat your previous best!
 
-2. Toggle between Light or Dark theme (optional).
+---
 
-3. Type your number guess in the input field.
+## ✅ Requirements
+- Python 3.x
+- Tkinter (usually included with Python)
 
-4. Click Guess or press Enter.
+---
 
-5. You have a limited number of tries based on the difficulty.
+## 📁 File Info
+- `highscores.json`: Auto-generated file for storing best scores by difficulty.
 
-6. Use the Hint button to get help (even/odd).
+---
 
-7. Click Scores to view the best times across sessions.
+## 🧱 Future Enhancements (Planned)
+- 🔊 Sound effects
+- 🏅 Achievements system
+- 🌐 Online score sharing
+- ⏳ Countdown/timer mode
 
-8. Try to beat your best score! 💪
+---
 
-> ✅ Requirements
-
-Python 3.x
-
-Tkinter (comes built-in with Python)
-
-> 📁 File Info
-
-*highscores.json*: Automatically generated to store best times by difficulty.
-
-> 🧱 Future Enhancements (Planned)
-
-🔊 Sound effects
-
-🏅 Achievements
-
-🌐 Online score sharing
-
-⏳ Timers or countdown modes
-
-Please feel free to explore each version and see the progression of features. Contributions and suggestions are welcome!
+Contributions, suggestions, and forks are welcome. Explore all three versions and track how the game evolves!
